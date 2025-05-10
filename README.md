@@ -155,7 +155,7 @@ program
     - `vector<Instruction> code`
     - `vector<pair<string,ValueType>> symbolTable`
     - `map<string,int> varIndex`
-    - стеки для `continue`/`break`
+    - стеки для `continue`
   - Методы:
     - `parseProgram()`, `parseDeclarations()`, `parseStatement()`, `parseExpression()`
     - `parseIf()`, `parseWhile()`, `parseFor()`, `parseCase()`, `parseRead()`, `parseWrite()`, `parseContinue()`

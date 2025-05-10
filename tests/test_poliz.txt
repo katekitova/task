@@ -1,0 +1,9 @@
+program {
+write("h");
+write("e");
+write("l");
+write("l");
+write("o");
+
+write("h", "e", "l", "l", "o");
+}

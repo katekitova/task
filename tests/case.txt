@@ -1,0 +1,15 @@
+program {
+  int x = 2;
+  case (x) of
+    1: write("one");
+    2: write("two");
+    3: write("three");
+  end;
+  
+  x = 5;
+  case (x) of
+    1: write("one");
+    2: write("two");
+    3: write("three");
+  end;
+}

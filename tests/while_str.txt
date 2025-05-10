@@ -1,0 +1,10 @@
+program {
+  string s = "a", t;
+  int i = 3;
+  t = s;
+  while (i > 0) {
+    t = t + s;
+    i = i - 1;
+  }
+  write(t);
+}

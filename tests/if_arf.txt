@@ -1,0 +1,7 @@
+program {
+  int a = 10, b = 20, c;
+  real x = 2.5;
+  c = a + b * 2;
+  if (c >= 50 or x < 3.0) write(c, x);
+  write("Done");
+}

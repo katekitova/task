@@ -1,0 +1,4 @@
+program {
+  string s = "Hello;
+  write(s);
+}

@@ -1,0 +1,6 @@
+program
+{
+  int j = 6, k;
+  k = ( i + j ) * 2; /* ERROR – нет описания переменной i */
+  write ("ERROR not detected");
+}
